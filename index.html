@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: #000;
+            height: 2750px;
+            width: 1500px;
+            background-image: linear-gradient(to left top,#000,#3b3b3b,#777777,#b9b9b9,rgb(214, 212, 212));
+        }
+        *
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header
+        {
+            z-index: 100;
+            background-image: linear-gradient(to right,#000,#a7a7a7,#333333,#222222,#000);
+            width: 127.25%;
+            height: 125px;
+            display: flex;
+            position: relative;right:15px;bottom: 10px;
+            align-items: center;
+            opacity: 0.9;
+            box-shadow: 30px 10px 10px 10px rgb(37, 37, 37);
+        }
+        header nav a
+        {
+            color: #fff;
+            font-size: 30px;
+            margin: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            letter-spacing: 4px;
+            text-shadow: 4px 4px 5px #000;
+        }
+        header nav
+        {
+            padding-left: 650px;
+            padding-top: 30px;
+        }
+        .blog
+        {
+           
+         width: 850px;
+         height: 500px;
+         background-color: #3b3b3b;
+         position: relative;left :450px;top: 150px;
+         border-radius: 75px;
+         border-style:solid;
+         border-color: #8888885d;
+         border-width: 10px;
+         border-right: 10px;
+         border-bottom: 10px;
+         opacity: 0.6;
+         box-shadow: 10px 10px 10px 10px #000;
+        }
+        .blog .blogtitle
+        {
+            color:#fff;
+            font-size: 100px;
+            text-align: center;
+           position: relative;bottom: 100px;right: 280px;
+           text-shadow: 8px 8px 5px #000;
+        }
+        .projects 
+        {
+            width: 850px;
+         height: 500px;
+         background-color: #3b3b3b;
+         position: relative;left :450px;top: 350px;
+         border-radius: 75px;
+         border-style:solid;
+         border-color: #8888885d;
+         border-width: 10px;
+         border-right: 10px;
+         border-bottom: 10px;
+         opacity: 0.6;
+         box-shadow: 10px 10px 10px 10px #000;
+        }
+        .projects .projectstitle
+        {
+            color:#fff;
+            font-size: 80px;
+            text-align: center;
+           position: relative;bottom: 80px;right: 230px;
+          text-shadow: 8px 8px 5px #000;
+        }
+        .Contacting
+        {
+            width: 850px;
+         height: 500px;
+         background-color: #3b3b3b;
+         position: relative;left :450px;top: 550px;
+         border-radius: 75px;
+         border-style:solid;
+         border-color: #8888885d;
+         border-width: 10px;
+         border-right: 10px;
+         border-bottom: 10px;
+         opacity: 0.6;
+         box-shadow: 10px 10px 10px 10px #000;
+        }
+        .Contacting .Contactingtitle
+        {
+            color:#fff;
+            font-size: 80px;
+            text-align: center;
+           position: relative;bottom: 60px;right: 190px;
+          text-shadow: 8px 8px 5px #000;
+        }
+        .instagramlogo
+        {
+            width: 150px;
+            position: relative;left: 200px;
+           border-radius: 45px;
+        }
+        .instagramlogo:hover
+        {
+        background-color: white;
+        opacity: 0.4;
+        }
+        .facbooklogo
+        {
+            width: 150px;
+            position: relative;left: 350px;
+           border-radius: 20px;
+        }
+        .facbooklogo:hover
+        {
+            background-color: white;
+        opacity: 0.4;
+        }
+        .last
+        {
+            width: 400px;
+         height: 200px;
+         background-color: #3b3b3b;
+         position: relative;left :650px;top: 750px;
+         border-radius: 35px;
+         
+         border-style:solid;
+         border-color: #8888885d;
+         border-width: 10px;
+         border-right: 10px;
+         border-bottom: 10px;
+         opacity: 0.6;
+         box-shadow: 10px 10px 15px 10px #000;
+        }
+        .totop a
+        {
+          
+            position: relative;top: 60px;left: 22%;
+            font-size: 50px;
+            text-transform: capitalize;
+            text-decoration: none;
+            color: white;
+            text-shadow: 8px 8px 5px #000;
+        }
+        .last:hover
+        {
+          background-color: white;
+          opacity: 0.1;
+        }
+        .totop a:hover
+        {
+          color: #3b3b3b;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header id="header">
+        <nav>
+            <a href="#Blog">Blog</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contacting">Contacting</a>
+        </nav>
+    </header>
+
+    <div class="blog" >
+    <p class="blogtitle" id="Blog">Blog :</p>
+    </div>
+
+    <div class="projects" >
+        <p class="projectstitle" id="Projects">Projects :</p>
+    </div>
+     
+    <div class="Contacting" >
+        <p class="Contactingtitle" id="Contacting">Contacting :</p>
+      <a href=""><img src="images/instagram.png" class="instagramlogo"></a> 
+      <a href=""><img src="images/facebook.png" class="facbooklogo"></a> 
+    </div>
+   <div class="last">  <nav class="totop"><a href="#header">to the top</a></nav></div>
+  
+</body>
+</html>
